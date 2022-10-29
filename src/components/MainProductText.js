@@ -4,8 +4,8 @@ const MainProductText = ({ header, desc, className }) => {
       <h2>{header}</h2>
       <p>{desc}</p>
       <div className='main-product-links'>
-        <button>Learn More </button>
-        <button>Buy </button>
+        <button><span>Learn More</span> &gt;</button>
+        <button><span>Buy</span> &gt;</button>
       </div>
     </div>
   )

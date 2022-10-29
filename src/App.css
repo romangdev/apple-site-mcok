@@ -89,6 +89,26 @@ main div {
   text-align: center;
   width: 275px;
   font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.main-product-links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.main-product-links button {
+  border: none;
+  background: none;
+  color: #0066CC;
+}
+
+.main-product-links button:hover {
+  text-decoration: underline;
 }
 
 .main-product-image {
@@ -170,4 +190,62 @@ h2 {
 
 .sub-product-bottom {
   height: 70%;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+}
+
+.sub-product-bottom img {
+  height: 95%;
+}
+
+.sub-iphone-14 {
+  background-color: #FBFBFD;
+}
+
+.sub-apple-tv {
+  background-color: #F5F5F7;
+}
+
+.sub-watch-ultra {
+  background-color: #FBFBFD;
+}
+
+.sub-watch-ultra-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: center;
+}
+
+#watch-ultra-img {
+  height: 70%;
+  min-width: 523px;
+  overflow: hidden;
+}
+
+.sub-watch-s8 {
+  background-color: #000000;
+  color: white;
+}
+ 
+.sub-watch-s8-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: center;
+}
+
+#watch-s8-img {
+  height: 80%;
+}
+
+.sub-apple-fitness {
+  background-color: #F5F5F7;
+}
+
+.sub-apple-card {
+  background-color: #FBFBFD;
 }
