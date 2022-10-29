@@ -8,11 +8,11 @@ const App = () => {
       <Navbar />
       <main className='container-fluid'>
         <div className='row main-product main-ipad'>
-          <div className='col-xs-12 col-md-6 main-ipad-left'>
+          <div className='col-xs-12 col-md-6 order-2 order-md-1 main-ipad-left'>
             <img src={require('./components/component-imgs/ipad-min.png')}
             alt='iPads stacked on top of one another' className='main-product-image ipads-img'></img>
           </div>
-          <div className='col-xs-12 col-md-6 main-ipad-right'>
+          <div className='col-xs-12 col-md-6 order-1 order-md-2 main-ipad-right'>
             <ProductText header='iPad' desc='Lovable. Drawable. Magical' className='product-text' />
           </div>
         </div>
@@ -33,7 +33,7 @@ const App = () => {
           </div>
           <div className='row-fluid main-iphone-14-bottom'>
             <img src={require('./components/component-imgs/iphone-14-pro-min.png')}
-            alt='iPhone 14 Pro' className='main-product-image'></img>
+            alt='iPhone 14 Pro' className='main-product-image main-iphone-14-img'></img>
           </div>
         </div>
 
@@ -59,7 +59,7 @@ const App = () => {
         <div className='row'>
           <div className='col-xs-12 col-lg-6 sub-product'>
             <div className='row-fluid sub-product-top sub-watch-ultra'>
-              <ProductText header='Apple Watch Ultra' desc='Adventure Awaits.' className='product-text' />
+              <ProductText header='Watch Ultra' desc='Adventure Awaits.' className='product-text' />
             </div>
             <div className='row-fluid sub-product-bottom sub-watch-ultra-bottom sub-watch-ultra'>
               <img src={require('./components/component-imgs/watch-ultra-min.png')} alt='Apple Watch Ultra' id='watch-ultra-img'></img>
@@ -67,7 +67,7 @@ const App = () => {
           </div>
           <div className='col-xs-12 col-lg-6 sub-product'>
             <div className='row-fluid sub-product-top sub-watch-s8'>
-              <ProductText header='Apple Watch Series 8' desc='A healthy leap ahead.' className='product-text' />
+              <ProductText header='Watch Series 8' desc='A healthy leap ahead.' className='product-text' />
             </div>
             <div className='row-fluid sub-product-bottom sub-watch-s8-bottom sub-watch-s8'>
               <img src={require('./components/component-imgs/watch-series-8-min.png')} alt='Apple Watch Series 8' id='watch-s8-img'></img>

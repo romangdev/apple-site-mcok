@@ -67,7 +67,8 @@ body {
   font-size: 1.2em;
   display: flex;
   flex-direction: column;
-  /* gap: 10px */
+  gap: 10px;
+  z-index: 1;
 }
 
 /* Navbar ------ */
@@ -172,10 +173,17 @@ h2 {
   padding: 0;
   text-align: center;
   background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+}
+
+.main-iphone-14-img {
+  height: 90%;
 }
 
 /* Sub Products ------- */
-
 .sub-product {
   height: 500px;
   padding: 5px 10px;
@@ -251,10 +259,68 @@ h2 {
   background-color: #FBFBFD;
 }
 
-/* 768 Bootstrap 'MD' breakpoint layout ----- */
-@media (min-width: 768px) and (max-width: 991.98px) {
+
+/* 768 BOOTSTRAP 'MD' BREAKPOINT LAYOUT */
+
+@media (max-width: 768px) {
+  .main-product {
+    height: 450px;
+  }
+
+
   .main-ipad-left {
-    height: 70px;
-    background-color: black;
+    height: 70%;
+    text-align: center;
+  }
+
+  .main-ipad-right {
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-ipad-pro-left {
+    justify-content: center;
+  }
+  
+  .main-ipad-pro-right img {
+    width: 385px;
+    height: 280px;
+  }
+
+  .sub-product {
+    height: 450px;
+  }
+}
+
+
+/* CUSTOM 480px BREAKPOINT */
+@media (max-width: 480px) {
+  .main-ipad-pro-right img {
+    width: 308px;
+    height: 224px;
+  }
+
+  .main-iphone-14-img {
+    height: 70%;
+  }
+
+  .sub-product {
+    height: 400px;
+  }
+
+  .sub-product-top {
+    height: 35%;
+  }
+
+  .sub-product-bottom {
+    height: 65%;
+  }
+
+  .sub-product img {
+    height: 85%;
+    /* padding-bottom: 35px; */
   }
 }
