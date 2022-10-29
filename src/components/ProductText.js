@@ -1,4 +1,4 @@
-const MainProductText = ({ header, desc, className }) => {
+const ProductText = ({ header, desc, className }) => {
   return (
     <div className={className}>
       <h2>{header}</h2>
@@ -11,4 +11,4 @@ const MainProductText = ({ header, desc, className }) => {
   )
 }
 
-export default MainProductText
+export default ProductText

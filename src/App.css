@@ -60,6 +60,16 @@ body {
   color: white;
 }
 
+/* Product Text Component ------ */
+.product-text {
+  text-align: center;
+  width: 275px;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  /* gap: 10px */
+}
+
 /* Navbar ------ */
 .navbar {
   background-color: #323232;
@@ -83,15 +93,6 @@ main div {
 .main-product {
   height: 500px;
   padding: 5px 0px;
-}
-
-.main-product-text {
-  text-align: center;
-  width: 275px;
-  font-size: 1.2em;
-  display: flex;
-  flex-direction: column;
-  gap: 10px
 }
 
 .main-product-links {
@@ -248,4 +249,12 @@ h2 {
 
 .sub-apple-card {
   background-color: #FBFBFD;
+}
+
+/* 768 Bootstrap 'MD' breakpoint layout ----- */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main-ipad-left {
+    height: 70px;
+    background-color: black;
+  }
 }
