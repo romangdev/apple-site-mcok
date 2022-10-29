@@ -56,6 +56,10 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+.white-text {
+  color: white;
+}
+
 /* Navbar ------ */
 .navbar {
   background-color: #323232;
@@ -78,6 +82,7 @@ main div {
 
 .main-product {
   height: 500px;
+  padding: 5px 0px;
 }
 
 .main-product-text {
@@ -86,8 +91,19 @@ main div {
   font-size: 1.2em;
 }
 
+.main-product-image {
+  height: 100%;
+}
+
 h2 {
   font-size: 2.0em;
+}
+
+.main-ipad-left {
+  height: 100%;
+  text-align: right;
+  padding: 0;
+  background-color: #FBFBFB;
 }
 
 .main-ipad-right {
@@ -95,38 +111,61 @@ h2 {
   flex-direction: column;
   justify-content: center;
   padding: 0;
+  background-color: #FBFBFB;
 }
 
 .main-ipad-pro-left {
   display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: center;
+  padding: 0;
+  background-color: #07011C;
+}
+
+.main-ipad-pro-right {
+  padding: 0;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: right;
-  padding: 0;
+  align-items: center;
+  background-color: #07011D;
+}
+
+.main-ipad-pro-right img {
+  width: 550px;
+  height: 400px;
 }
 
 .main-iphone-14-top {
   height: 20%;
-  padding: 0;
+  padding: 15px 0 0;
   display: flex;
-    flex-direction: row;
-    justify-content: center;
+  flex-direction: row;
+  justify-content: center;
+  background-color: black;
 }
 
 .main-iphone-14-bottom {
   height: 80%;
   padding: 0;
+  text-align: center;
+  background-color: black;
 }
 
 /* Sub Products ------- */
 
 .sub-product {
   height: 500px;
-  padding: 0;
+  padding: 5px 10px;
 }
 
 .sub-product-top {
   height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
 }
 
 .sub-product-bottom {

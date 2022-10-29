@@ -1,6 +1,6 @@
-const MainProductText = ({ header, desc }) => {
+const MainProductText = ({ header, desc, className }) => {
   return (
-    <div className='main-product-text'>
+    <div className={className}>
       <h2>{header}</h2>
       <p>{desc}</p>
       <div className='main-product-links'>
