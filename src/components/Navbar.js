@@ -22,7 +22,6 @@ const Navbar = () => {
         </div>
       </div>
       <img src={require('./component-imgs/search-icon.png')} className='nav-search-icon' alt=''></img>
-      <img src={require('./component-imgs/shopping-icon.png')} className='nav-shopping-icon' alt=''></img>
     </nav>
   )
 }
