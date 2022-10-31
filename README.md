@@ -2,13 +2,13 @@
 
 A responsive replica of Apple's main website homepage built using Bootsrap and React.js - fits all screen sizes including mobile.
 
+**You can see a LIVE version of the form here:** [applehomepagereplica.netlify.app](https://applehomepagereplica.netlify.app/)
+
 ![Screen Shot 2022-10-30 at 8 37 36 PM](https://user-images.githubusercontent.com/74276666/199016868-8123c2e3-80a5-438d-91a0-398739465ffc.png)
 
 ![Screen Shot 2022-10-30 at 8 37 57 PM](https://user-images.githubusercontent.com/74276666/199016882-e5043e2c-1756-4b4b-84f3-d8d3aeab0e94.png)
 
 <img width="487" alt="Screen Shot 2022-10-31 at 9 19 11 AM" src="https://user-images.githubusercontent.com/74276666/199017243-1ae5ce7c-5d68-4989-86b9-fd6d3e3ccb01.png">
-
-**You can see a LIVE version of the form here:** applehomepagereplica.netlify.app
 
 # How It's Made:
 Tech used: React.js, Bootstrap, HTML, CSS, JS
