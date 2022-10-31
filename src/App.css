@@ -77,7 +77,10 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 6px 25px;
+  padding: 10px 25px 4px 25px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 
 .navbar img {
@@ -130,9 +133,10 @@ nav img {
 }
 
 /* Main Products -------- */
-main div {
-  /* border: 1px solid black; */
+main {
+  padding-top: 50px;
 }
+
 
 .main-product {
   height: 500px;
@@ -219,7 +223,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .main-iphone-14-img {
@@ -236,7 +240,7 @@ h2 {
   height: 30%;
   display: flex;
   flex-direction: column;
-  justify-content: end;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -246,7 +250,7 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: end;
+  align-items: flex-end;
 }
 
 .sub-product-bottom img {
@@ -268,7 +272,7 @@ h2 {
 .sub-watch-ultra-bottom {
   display: flex;
   flex-direction: row;
-  align-items: end;
+  align-items: flex-end;
   justify-content: center;
   overflow: hidden;
 }
@@ -287,7 +291,7 @@ h2 {
 .sub-watch-s8-bottom {
   display: flex;
   flex-direction: row;
-  align-items: end;
+  align-items: flex-end;
   justify-content: center;
 }
 
