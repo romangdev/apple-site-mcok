@@ -125,7 +125,11 @@ body {
 }
 
 .nav-link:hover {
-  color: white;
+  color: white !important;
+}
+
+.nav-link:valid {
+  color: #B2B2B2;
 }
 
 nav img {
