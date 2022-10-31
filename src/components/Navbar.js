@@ -4,7 +4,7 @@ const Navbar = () => {
       <img src={require('./component-imgs/apple-logo.png')} className='nav-apple-logo' alt='apple logo'></img>
       <div className="container nav-container">
         <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar" aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon navbar-dark"></span>
         </button>
         <div className="collapse navbar-collapse" id="n_bar">
             <ul className="navbar-nav">
